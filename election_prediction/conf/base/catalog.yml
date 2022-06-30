@@ -2,3 +2,28 @@
 #
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://kedro.readthedocs.io/en/stable/data/data_catalog.html
+
+raw_election_dataset:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/ElectionData.csv
+
+pp_election_dataset:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/PreprocessedData.csv
+
+encoded_election_dateset:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/FeaturedData.csv
+
+#Auxiliary objects
+label_encoder_party:
+  type: pickle.PickleDataSet
+  filepath: data/05_model_input/label_encoder_party.pickle
+
+label_encoder_territory:
+  type: pickle.PickleDataSet
+  filepath: data/05_model_input/label_encoder_territory.pickle
+
+classifier:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/classifier.pickle
