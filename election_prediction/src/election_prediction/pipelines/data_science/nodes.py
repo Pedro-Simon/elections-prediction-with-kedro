@@ -16,14 +16,14 @@ def split_feature_target(df):
     
     return X, y
 
-def split_train_test(X, y):
+def split_train_test(X, y, random_state=9999, test_size=0.3):
     '''Split features and target into train and test sets'''
     
     X_train, X_test, y_train, y_test = train_test_split(
             X, 
             y, 
-            test_size=0.3, 
-            random_state=9999, 
+            test_size=test_size, 
+            random_state=random_state, 
             stratify=y
         )
         
