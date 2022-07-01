@@ -7,7 +7,7 @@ The information about the dataset used in this project can be found [here](https
 ### Clone repository
 To run this project at your local machine, it's first necessary to clone this repository.
 
-### Install requirements
+### Installing requirements
 The requirements file is located in path ./election_prediction/src/requirements.txt.
 If using pip, run the command pip install -r ./path/to/requirements.txt (changing the correct path)
 
