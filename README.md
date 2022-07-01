@@ -11,7 +11,7 @@ To run this project at your local machine, it's first necessary to clone this re
 The requirements file is located in path ./election_prediction/src/requirements.txt.
 If using pip, run the command pip install -r ./path/to/requirements.txt (changing the correct path)
 
-### Getting the dataset
+### Obtaining the dataset
 It´s not necessary to download the dataset from anywhere. The raw data is located inside the ./election_prediction/data/01_raw folder.
 
 ### Running Kedro
