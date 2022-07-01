@@ -1,5 +1,6 @@
 # elections-prediction-with-kedro
-A machine learning model to predict portuguese elections results using Kedro
+This repository contains a machine learning model to predict portuguese elections results using Kedro.
+The information about the dataset used in this project can be found [here](https://archive.ics.uci.edu/ml/datasets/Real-time+Election+Results%3A+Portugal+2019).
 
 ## Getting started
 
@@ -27,4 +28,4 @@ List of all pipelines names:
 
 Kedro is a Data Science tool that helps MLOps processes turning data transformation and prediction modelling into a pipeline. With Kedro, the collaborative workflow between the Data Scientist and Data Engineer is enhanced.
 
-To learn more about kedro, check the [Documentation](https://kedro.readthedocs.io/en/stable/)).
+To learn more about kedro, check the [Documentation](https://kedro.readthedocs.io/en/stable/).
