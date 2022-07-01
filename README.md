@@ -24,7 +24,7 @@ List of all pipelines names:
 - <b>de</b> - pipeline of feature engineering (data engineering), where new columns are created.
 - <b>ds</b> - pipeline of data science, where the dataset is splited and model is fitted.
 
-### About Kedro
+## About Kedro
 
 Kedro is a Data Science tool that helps MLOps processes turning data transformation and prediction modelling into a pipeline. With Kedro, the collaborative workflow between the Data Scientist and Data Engineer is enhanced.
 
